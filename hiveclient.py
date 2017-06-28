@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2017/6/28 14:56
 # @Author  : wutianxiong
-# @Site    : 
 # @File    : hiveclient.py
 # @Software: PyCharm
 
