@@ -43,9 +43,9 @@ def main():
     @note:
 
     """
-    hive_client = HiveClient(db_host='10.0.3.1', port=10001, user='', password='',
+    hive_client = HiveClient(db_host='10.0.0.66', port=10000, user='', password='',
                              database='test', authMechanism='NOSASL')
-    result = hive_client.query('select * from ntciflow limit 10')
+    result = hive_client.query('select * from userinfo')
     print result
     hive_client.close()
 
